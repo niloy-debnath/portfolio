@@ -1,0 +1,101 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Navigation Bar */    
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 230px;
+}
+.hire-btn{
+    /* margin: 18,35,19,36; */
+    background-color: #FD6E0A ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-items: center
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    margin-right: 51px;
+}
+
+nav h3{
+    margin-left: 262px;
+}
+
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    /* margin: 38px 1441px 25px 23px; */
+    background-position: top left,bottom right;
+    
+}
+
+
+
+/* banner styles */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+    margin-right: 0px;
+    
+}
+
+.container-content{
+    max-width: 585px;
+}
+
+.img{
+    width: 584px;
+    height: 676px;
+}
+
+.greeting{
+    font-weight: 600px;
+    font-size: 45px;
+}
+.greeting-name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.greeting-message{
+    font-weight: 400px;
+    font-size: 30px;
+}
